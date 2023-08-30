@@ -7,7 +7,7 @@ $product_id="";
 $product_name="";
 $product_no="";
 $product_price="";
-$query = "select products.product_name, products.product_no, products.Product_price from products";
+$query = "select products.product_name, products.product_no, products.product_price from products";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -89,7 +89,7 @@ $query = "select products.product_name, products.product_no, products.Product_pr
             ?>
             <tr>
                 <td><?php echo $product_name; ?></td>
-                <td><?php echo $product_number; ?></td>
+                <td><?php echo $product_no; ?></td>
                 <td><?php echo $product_price; ?></td>
             </tr>
             <?php
